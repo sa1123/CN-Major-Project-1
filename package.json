@@ -1,0 +1,27 @@
+{
+  "name": "friendface",
+  "version": "1.0.0",
+  "description": "social media webapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sa1123/CN-Major-Project-1.git"
+  },
+  "keywords": [
+    "social"
+  ],
+  "author": "sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sa1123/CN-Major-Project-1/issues"
+  },
+  "homepage": "https://github.com/sa1123/CN-Major-Project-1#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "nodemon": "^2.0.15"
+  }
+}
