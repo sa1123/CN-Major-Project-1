@@ -1,8 +1,9 @@
 module.exports.profile = function(req, res){
-    return res.render('profile/', {
-        title: "Users"
+    return res.render('user_profile/', {
+        title: "User Profile"
     });
 }
+
 
 // Render Sign Up page
 module.exports.signUp = function(req, res){
@@ -19,10 +20,12 @@ module.exports.signIn = function(req, res){
     })
 }
 
+
 // get sign up data
 module.exports.create = function(req, res){
     // Later
 }
+
 
 // sign in and create session for the user
 module.exports.create = function(req, res){
