@@ -18,3 +18,13 @@ module.exports.signIn = function(req, res){
         title: "FriendFace || Sign In"
     })
 }
+
+// get sign up data
+module.exports.create = function(req, res){
+    // Later
+}
+
+// sign in and create session for the user
+module.exports.create = function(req, res){
+    // Later
+}
