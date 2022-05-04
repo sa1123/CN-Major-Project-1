@@ -1,11 +1,23 @@
-<html>
-    <head>
-        <title>
-            <%= title %>
-        </title>
-    </head>
+<h1>Friendface / <%= title %></h1>
 
-    <body>
-        <h1>Friendface / <%= title %></h1>
-    </body>
-</html>
+<section id="feed-posts">
+    <h4>Posts</h4>
+    <form action="/posts/create" id="new-post-form" method="POST">
+        <textarea name="content" cols="30" rows="3" placeholder="Type here"></textarea>
+        <input type="submit" value="Post">
+    </form>
+
+    <div id="posts-list-continer">
+        <ul>
+            <% for (post of posts){ %>
+                <li>
+                    <%= post.content %>
+                    <br>
+                    <small>
+                        <%= post.user.name %> 
+                    </small>
+                </li>
+            <% } %> 
+        </ul>
+    </div>
+</section>
