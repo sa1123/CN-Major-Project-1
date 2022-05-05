@@ -26,5 +26,3 @@ module.exports.home = function(req, res){
     })
 
 }
-
-// module.exports.actionName = function(req, res){}
